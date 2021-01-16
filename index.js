@@ -16,6 +16,7 @@ app.use('/posts', postRoutes);
 
 app.get('/', (req, res) => {
   res.send('Hello to myartg API');
+  System.err.println('Hello, logs!');
 });
 
 const PORT = process.env.PORT || 5000;
