@@ -20,7 +20,7 @@ app.get('/', (req, res) => {
 });
 
 const CONNECTION_URL =
-  'mongodb+srv://v-ardar21:vardar21@cluster0.xik8v.mongodb.net/<dbname>?retryWrites=true&w=majority';
+  '';
 const PORT = process.env.PORT || 5000;
 
 mongoose
